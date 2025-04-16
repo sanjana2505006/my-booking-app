@@ -62,6 +62,45 @@ A mobile application built with React Native for managing work shifts. It allows
 - React Native CLI
 - Android Studio / Xcode
 
+ ## 📦 Libraries Used
+
+Here are some recommended libraries used to build and manage the features of this app:
+
+### 🛠 Core Development
+
+- [**React Native**](https://reactnative.dev/) – Build native mobile apps using JavaScript and React.
+- [**React Navigation**](https://reactnavigation.org/) – Handle screen transitions and stack/tab navigation.
+
+### 🗃 State Management (choose one)
+
+- [**Redux**](https://redux.js.org/) – A predictable state container for managing app state.
+- [**Zustand**](https://docs.pmnd.rs/zustand/introduction) – A minimal and scalable state management solution.
+- [**Context API**](https://reactjs.org/docs/context.html) – React’s built-in way of sharing state across components.
+
+### 🎨 UI Components
+
+- [**NativeBase**](https://nativebase.io/) – A universal UI component library for React Native.
+- [**React Native Paper**](https://callstack.github.io/react-native-paper/) – Material Design components for React Native.
+- [**React Native Vector Icons**](https://github.com/oblador/react-native-vector-icons) – Customizable icons for your UI.
+
+### 🗓 Dates & Time
+
+- [**Date-fns**](https://date-fns.org/) – Modern JavaScript date utility library for formatting, parsing, and manipulating dates.
+- [**Moment.js**](https://momentjs.com/) – An older but widely-used library for date handling.
+
+### 🌐 API & Networking (optional)
+
+- [**Axios**](https://axios-http.com/) – Promise-based HTTP client for making API requests.
+
+### 🧪 Testing (if needed)
+
+- [**Jest**](https://jestjs.io/) – JavaScript testing framework.
+- [**React Native Testing Library**](https://callstack.github.io/react-native-testing-library/) – For testing React Native components.
+
+---
+
+> ✨ You can pick and choose from the above depending on your project needs and preferences. UI, state management, and date handling are the key parts for this app.
+
 ### 🔧 Installation
 
 ```bash
@@ -70,5 +109,8 @@ cd shift-manager-app
 npm install
 # or
 yarn install
+
+
+
 
 
